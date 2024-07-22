@@ -1,0 +1,95 @@
+.body-scan {
+    background-color: #362893; /* Background color from the image */
+    color: #000000; /* Black text color */
+    font-family: Arial, sans-serif; /* Font choice */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+.container-scan {
+    display: flex; /* Flex container */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    justify-content: center; /* Center items vertically */
+}
+
+.navbar-scan {
+    background-color: #362893; /* Navbar background color */
+    padding: 0.5rem; /* Padding around navbar */
+    display: flex; /* Flex container for navbar items */
+    justify-content: center; /* Center navbar items horizontally */
+    width: 100%; /* Full width */
+    border-bottom: 4px solid white; /* White border at the bottom */
+}
+
+.nav-list-scan {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Flex container for navbar items */
+    width: 100%; /* Full width */
+    justify-content: center; /* Center items horizontally */
+}
+
+.nav-item-scan {
+    display: flex; /* Flex container for navbar items */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin: 0 1rem; /* Margin around navbar items */
+    padding: 0.5rem 2rem; /* Padding inside navbar items */
+    background-color: #ffffff; /* White background color */
+    border-radius: 50px; /* Rounded corners */
+    height: auto; /* Adjust height automatically */
+    width: inherit; /* Inherit width */
+}
+
+.nav-link-scan {
+    text-decoration: none; /* Remove underline from links */
+    color: #362893; /* Dark purple text color */
+    font-weight: bold; /* Bold font weight */
+    font-size: 1.2rem; /* Font size */
+}
+
+.nav-item-scan.active .nav-link-scan {
+    background-color: #ffffff; /* White background color */
+    color: #362893; /* Dark purple text color */
+}
+
+.content-scan {
+    width: 70%; /* 70% width */
+    border-radius: 25px; /* Rounded corners */
+    padding: 2rem; /* Padding inside content */
+    margin-top: 2rem; /* Top margin */
+    text-align: center; /* Center text */
+}
+
+.email-content-scan, .url-input-scan {
+    border-radius: 25px; /* Rounded corners */
+    border: 2px solid #362893; /* Dark purple border */
+    padding: 15px; /* Padding inside */
+    margin-top: 15px; /* Top margin */
+    width: 100%; /* Full width */
+}
+
+.input-icon-scan {
+    width: 100px; /* Icon width */
+    height: auto; /* Adjust height automatically */
+    margin-bottom: 15px; /* Bottom margin */
+    margin-top: -55px; /* Top margin (negative to overlap) */
+}
+
+.btn-scan {
+    background-color: #f0e68c; /* Light yellow background color */
+    color: #000000; /* Black text color */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside button */
+    font-size: 1.2rem; /* Font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+.btn-scan:hover {
+    background-color: #d1c47c; /* Light yellow hover background color */
+    color: #000000; /* Black text color */
+}
